@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+.sear{
+    width: 90%;
+    height: 60px;
+    padding: 0 10px;
+    background-color: #EDEDED;
+    font-size: 1.2rem;
+    border: none;
+}
+.sear:focus{
+    outline: none;
+}
+.searchbtn{
+    position: relative;
+    top: 10px;
+    left: -120px;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.profile{
+    width: 90%;
+}
+
+
